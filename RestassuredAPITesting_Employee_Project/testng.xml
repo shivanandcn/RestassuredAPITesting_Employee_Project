@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name= "restAssuredTestSuit">
+
+<listeners>
+   <listener class-name ="com.employeeapi.utilities.ExtentReportListener"> </listener>
+  <!--  <listener class-name ="com.employeeapi.utilities.Listeners"> </listener> --> 
+</listeners>
+
+<test name="restAssuredTests">
+
+	<classes>
+	<class name="com.employeeapi.testCases.TC001_Get_All_Employees"> </class>
+	<class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record"> </class>
+	</classes>
+	
+</test>
+
+</suite>

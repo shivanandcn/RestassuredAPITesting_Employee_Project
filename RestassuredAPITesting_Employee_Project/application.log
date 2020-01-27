@@ -1,0 +1,425 @@
+2020-01-22 22:08:37,643  INFO [main] EmployeesRestAPI:18 - ******************* Started TC001_Get_All_Employees******************
+2020-01-22 22:08:39,884 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2020-01-22 22:08:40,158 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2020-01-22 22:08:40,268 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-01-22 22:08:40,268 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-01-22 22:08:40,268 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-01-22 22:08:40,283 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-01-22 22:08:40,283 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-01-22 22:08:40,283 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/employees HTTP/1.1
+2020-01-22 22:08:40,283 DEBUG [main] wire:73 -  >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+2020-01-22 22:08:40,283 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-01-22 22:08:40,283 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2020-01-22 22:08:40,283 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-01-22 22:08:40,283 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+2020-01-22 22:08:40,283 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-01-22 22:08:40,283 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-01-22 22:08:40,299 DEBUG [main] headers:278 - >> GET /api/v1/employees HTTP/1.1
+2020-01-22 22:08:40,299 DEBUG [main] headers:281 - >> Accept: */*
+2020-01-22 22:08:40,299 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2020-01-22 22:08:40,299 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-01-22 22:08:40,299 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+2020-01-22 22:08:40,299 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-01-22 22:08:40,768 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Accept-Ranges: bytes[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Age: 0[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Date: Thu, 23 Jan 2020 03:08:39 GMT[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Pragma: no-cache[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Set-Cookie: PHPSESSID=bb9fa304f3b2085f5024a70ac80ec39e; path=/[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 03:38:39 UTC[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:08:39 UTC[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Set-Cookie: ezoab_133674=mod7-c; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:08:39 UTC[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Set-Cookie: active_template::133674=pub_site.1579748919; Path=/; Domain=restapiexample.com; Expires=Sat, 25 Jan 2020 03:08:39 UTC[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,User-Agent,X-APP-JSON[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "X-Shard: 100224170[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "X-Varnish: 272274010[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "X-Vcache: Miss[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "Content-Length: 595[\r][\n]"
+2020-01-22 22:08:40,783 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-01-22 22:08:40,799 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-01-22 22:08:40,799 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Accept-Ranges: bytes
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Age: 0
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Cache-Control: no-store, no-cache, must-revalidate
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Content-Type: application/json;charset=utf-8
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Date: Thu, 23 Jan 2020 03:08:39 GMT
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Pragma: no-cache
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Referrer-Policy: 
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Response: 200
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Set-Cookie: PHPSESSID=bb9fa304f3b2085f5024a70ac80ec39e; path=/
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 03:38:39 UTC
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:08:39 UTC
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Set-Cookie: ezoab_133674=mod7-c; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:08:39 UTC
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Set-Cookie: active_template::133674=pub_site.1579748919; Path=/; Domain=restapiexample.com; Expires=Sat, 25 Jan 2020 03:08:39 UTC
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Vary: Accept-Encoding,User-Agent,X-APP-JSON
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Via: 1.1 varnish (Varnish/6.0)
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << X-Shard: 100224170
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << X-Sol: pub_site
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << X-Varnish: 272274010
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << X-Vcache: Miss
+2020-01-22 22:08:40,799 DEBUG [main] headers:265 - << Content-Length: 595
+2020-01-22 22:08:40,815 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-01-22 22:08:40,846 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=utf-8
+2020-01-22 22:08:40,846 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c][0x95][0xcd]n[0xdb]:[0x14][0x84]_[0x85][0xe0]:[0xb][0x89][0xd4][0x8f][0xed][0xdd][0xb5][0x83]8[0xb8]i[0x8a]6[0x9][0x1a][0x14]E[0x11][0x1c]X[0xa7]1Q[0x9a]4[0x8e][0xa8]4j[0x90]w/[0x8c]v[0x91][0xc5][0x88]B[0xbb][0xb5]`}[0x18]r[0xe6][0xd3][0x8b][0xee][0x13][0xa5][0xa1][0xd7]+[0xdd][0xf][0xbb][0x1d][0xf7][0xbd]>[0xd3][0x1d]%[0xd2][0xab]//[0xda]uz[0xa5]K}[0xa6][0xf9]p[0xf4]qd~[0x8]t`[0xbd][0xd2]w[0xee][0x91]E[0xbd]w[0xcf]1[0xbc]}[0xda][0x93]'[0x19][0xf5]J[S,[0x8a][0xe2][0xed]#z<[0xfd][0xaf]9[0xbd][0xec]([0xf1][0x9b][0xf3][0xfc][0xe0][0xe][0xbf][0xd4][0xaf]gP[0x6][0xa0][0xb6]$[0xc2])[0xa9]{[0x17][0x12]K[0xf]qe[[0xb4]5[0xc2][0xd9],[0xce][0x2][0xdc][0xfd]>[0xc5][0xa0]6[0xf1][0x19][0x92][0x16]M[0x1]s5YP[0x5]@[0x1b][0xee][0xc4][0xed][0xd4][0x15]{?BTem[0xd1][0x0][0x96]1YV[0x8d]B9q[0xea][0x96]R[0x1c][0xf0][0xf1]5[0xa6]E[0xa9]l[0xfe][0xf8][0x1a]@Z[0x8b]c[0xef]Y[0xdd];[0xef][0x1d][0x1d][0xfa][0xa9]~[0xb4][0x6][0x9f]c[0xbe][0x1f]- ^[0xb2]H[0xec][0xd4]fO[0xa1][0xf3],8[0xa0]mk[0x84][0xab][0x97]Y[0xdc][0x2][0xe0]n[0xf6]1[0x90]:[0xa7]'[0xd7]M[0x86]3[0xed][0x12][0xd2][0xea],m[0x89]J[0x12][0xbd]g[0xe][0xea]r[0x90]>A[0x98])j[0x18][0xcd][0xe6][0xa3][0x95][0x5][0xa0][0xdd][0xc6]0[0x92][0xba][0x90]8[0xc1]*[0xb][0xdb] [0x96][0xc9][0xf7][0xa4]D[0x6][0xf9][0x9f][0x3][0xa9]-[0xb9][0xc0]x[0xd2][0xcb][0xa2]F[0xe5][0xb7]E[0x1e][0x85][0xc][0xf2]qp![0xa8][0xb]?[0x86][0x89][0xfb][0xaa]p[0x19]g[0x86]V"}l[0xf6]$[0x1d][0xab]k[0x92]~O[0xde][0xe3]a[0xb7][0x5]<F[0x9b][0x97]H[0x89],rI[0x9e]Gu[0xc5]!p[0x87]5bK[0xb][0xb]R[0xcd]\[0x1a][0xf2][0xc8][0x1d][0xa5][0x91][0x2][0xa9][0xb][0x97]~[0x1e])[0x89][0xdb]}[0xc7][0xcc]E[\r]}\[0xce][0x94][0x12][0x19][0xe5][0xda][0xed][0xf6][0xc4]^[0xdd]:[0xff]D[0xb8][0x96][0xcb][0x5]L8#[0xe5][0x12][0xd9][0xe4][0x3][\r]^[0xad]G[0xe9] [0xa9]55[0xd6]V[0x95]'![0x91]l}[0x14]G[0xea][0x9d]K[0xc9]3[0x9e][0xf6][0xbf]Y[0xab]D"Y[0xb]u[0xa7][0xa6]l[0x85]'[0x1d][0x89]WP[0xcd]|[0xb2][0x91]H[0xce][0xc9][0xa9][0x1b][0x17][0xf1][0xb2]M[0x89]c[0xd9][0xbc][0x1e][0xcd][0x84]E8%V[0x1b][0xf2][0xdd][0xf][0x9e][0xd8][0x9b][0xad][0xf0][0xad][0xcd][0xb8][0xc4] [0x97]|[0x1e][0xc4][0xa9]5[0x8b][0xe0][0xb1]5-FU3([0xa8][0x12][0xe2][0x9e]D}[0xa2][0xb0][0xc3][0xfd]([0x8b][0xa6]B+337[0x86]<r[0x1e][0xc5][0xf5][0xa7][0xaf]v7Q[0x8f]E[0xfd]7[0xea][0xff][0xfa][0xfa]+[0x0][0x0][0xff][0xff]8n[0xc9]gY[\n]"
+2020-01-22 22:08:40,846 DEBUG [main] wire:87 -  << "[0x0][0x0]"
+2020-01-22 22:08:40,846 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-01-22 22:08:44,127  INFO [main] EmployeesRestAPI:99 - ******************* Checking Content Encoding ******************
+2020-01-22 22:08:44,129  INFO [main] EmployeesRestAPI:102 - Content Encoding is ==> gzip
+2020-01-22 22:08:44,146  INFO [main] EmployeesRestAPI:110 - ******************* Checking Content Length ******************
+2020-01-22 22:08:44,146  INFO [main] EmployeesRestAPI:113 - Content Length is ==> 595
+2020-01-22 22:08:44,146  INFO [main] EmployeesRestAPI:77 - ******************* Checking Conten Type ******************
+2020-01-22 22:08:44,146  INFO [main] EmployeesRestAPI:80 - Content Type is ==> application/json;charset=utf-8
+2020-01-22 22:08:44,146  INFO [main] EmployeesRestAPI:124 - ******************* Checking Cookies ******************
+2020-01-22 22:08:44,161  INFO [main] EmployeesRestAPI:52 - ******************* Checking Response Time ******************
+2020-01-22 22:08:44,161  INFO [main] EmployeesRestAPI:55 - Response Time is ==> 2227
+2020-01-22 22:08:44,161  WARN [main] EmployeesRestAPI:58 - Response Time is greater than 2000
+2020-01-22 22:08:44,161  INFO [main] EmployeesRestAPI:30 - ******************* Checking Response Body ******************
+2020-01-22 22:08:44,192 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@18a3962d
+2020-01-22 22:08:44,192 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-01-22 22:08:44,208  INFO [main] EmployeesRestAPI:33 - Response Body==> {"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-01-22 22:08:44,208  INFO [main] EmployeesRestAPI:88 - ******************* Checking Server Type ******************
+2020-01-22 22:08:44,208  INFO [main] EmployeesRestAPI:91 - Server Type is ==> nginx/1.16.0
+2020-01-22 22:08:44,208  INFO [main] EmployeesRestAPI:41 - ******************* Checking Response Body ******************
+2020-01-22 22:08:44,208  INFO [main] EmployeesRestAPI:44 - Status code is ==> 200
+2020-01-22 22:08:44,208  INFO [main] EmployeesRestAPI:66 - ******************* Checking Status Line ******************
+2020-01-22 22:08:44,208  INFO [main] EmployeesRestAPI:69 - Status Line is ==> HTTP/1.1 200 OK
+2020-01-22 22:08:44,224  INFO [main] EmployeesRestAPI:133 - ******************* Finished TC001_Get_All_Employees ******************
+2020-01-22 22:09:40,956  INFO [main] EmployeesRestAPI:18 - ******************* Started TC001_Get_All_Employees******************
+2020-01-22 22:09:43,209 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2020-01-22 22:09:43,286 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2020-01-22 22:09:43,411 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-01-22 22:09:43,411 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-01-22 22:09:43,411 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-01-22 22:09:43,411 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-01-22 22:09:43,411 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-01-22 22:09:43,411 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/employees HTTP/1.1
+2020-01-22 22:09:43,411 DEBUG [main] wire:73 -  >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+2020-01-22 22:09:43,411 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-01-22 22:09:43,411 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2020-01-22 22:09:43,411 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-01-22 22:09:43,411 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+2020-01-22 22:09:43,411 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-01-22 22:09:43,427 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-01-22 22:09:43,427 DEBUG [main] headers:278 - >> GET /api/v1/employees HTTP/1.1
+2020-01-22 22:09:43,427 DEBUG [main] headers:281 - >> Accept: */*
+2020-01-22 22:09:43,427 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2020-01-22 22:09:43,427 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-01-22 22:09:43,427 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+2020-01-22 22:09:43,427 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-01-22 22:09:43,865 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-01-22 22:09:43,865 DEBUG [main] wire:73 -  << "Accept-Ranges: bytes[\r][\n]"
+2020-01-22 22:09:43,865 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Age: 0[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Date: Thu, 23 Jan 2020 03:09:42 GMT[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Pragma: no-cache[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Set-Cookie: PHPSESSID=ba8415e1cd26e534df3bc565a2d8aaaf; path=/[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Set-Cookie: ezoadgid_133674=-2; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 03:39:42 UTC[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:09:42 UTC[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Set-Cookie: ezoab_133674=mod6; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:09:42 UTC[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Set-Cookie: active_template::133674=pub_site.1579748982; Path=/; Domain=restapiexample.com; Expires=Sat, 25 Jan 2020 03:09:42 UTC[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,User-Agent,X-APP-JSON[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2020-01-22 22:09:43,880 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2020-01-22 22:09:43,896 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2020-01-22 22:09:43,896 DEBUG [main] wire:73 -  << "X-Shard: 100224170[\r][\n]"
+2020-01-22 22:09:43,896 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2020-01-22 22:09:43,896 DEBUG [main] wire:73 -  << "X-Varnish: 259347315[\r][\n]"
+2020-01-22 22:09:43,896 DEBUG [main] wire:73 -  << "X-Vcache: Miss[\r][\n]"
+2020-01-22 22:09:43,896 DEBUG [main] wire:73 -  << "Content-Length: 595[\r][\n]"
+2020-01-22 22:09:43,896 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-01-22 22:09:43,896 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-01-22 22:09:43,896 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Accept-Ranges: bytes
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Age: 0
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Cache-Control: no-store, no-cache, must-revalidate
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Content-Type: application/json;charset=utf-8
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Date: Thu, 23 Jan 2020 03:09:42 GMT
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Pragma: no-cache
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Referrer-Policy: 
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Response: 200
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Set-Cookie: PHPSESSID=ba8415e1cd26e534df3bc565a2d8aaaf; path=/
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Set-Cookie: ezoadgid_133674=-2; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 03:39:42 UTC
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:09:42 UTC
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Set-Cookie: ezoab_133674=mod6; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:09:42 UTC
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Set-Cookie: active_template::133674=pub_site.1579748982; Path=/; Domain=restapiexample.com; Expires=Sat, 25 Jan 2020 03:09:42 UTC
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Vary: Accept-Encoding,User-Agent,X-APP-JSON
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << Via: 1.1 varnish (Varnish/6.0)
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << X-Shard: 100224170
+2020-01-22 22:09:43,896 DEBUG [main] headers:265 - << X-Sol: pub_site
+2020-01-22 22:09:43,911 DEBUG [main] headers:265 - << X-Varnish: 259347315
+2020-01-22 22:09:43,911 DEBUG [main] headers:265 - << X-Vcache: Miss
+2020-01-22 22:09:43,911 DEBUG [main] headers:265 - << Content-Length: 595
+2020-01-22 22:09:43,911 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-01-22 22:09:43,943 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=utf-8
+2020-01-22 22:09:43,943 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c][0x95][0xcd]n[0xdb]:[0x14][0x84]_[0x85][0xe0]:[0xb][0x89][0xd4][0x8f][0xed][0xdd][0xb5][0x83]8[0xb8]i[0x8a]6[0x9][0x1a][0x14]E[0x11][0x1c]X[0xa7]1Q[0x9a]4[0x8e][0xa8]4j[0x90]w/[0x8c]v[0x91][0xc5][0x88]B[0xbb][0xb5]`}[0x18]r[0xe6][0xd3][0x8b][0xee][0x13][0xa5][0xa1][0xd7]+[0xdd][0xf][0xbb][0x1d][0xf7][0xbd]>[0xd3][0x1d]%[0xd2][0xab]//[0xda]uz[0xa5]K}[0xa6][0xf9]p[0xf4]qd~[0x8]t`[0xbd][0xd2]w[0xee][0x91]E[0xbd]w[0xcf]1[0xbc]}[0xda][0x93]'[0x19][0xf5]J[S,[0x8a][0xe2][0xed]#z<[0xfd][0xaf]9[0xbd][0xec]([0xf1][0x9b][0xf3][0xfc][0xe0][0xe][0xbf][0xd4][0xaf]gP[0x6][0xa0][0xb6]$[0xc2])[0xa9]{[0x17][0x12]K[0xf]qe[[0xb4]5[0xc2][0xd9],[0xce][0x2][0xdc][0xfd]>[0xc5][0xa0]6[0xf1][0x19][0x92][0x16]M[0x1]s5YP[0x5]@[0x1b][0xee][0xc4][0xed][0xd4][0x15]{?BTem[0xd1][0x0][0x96]1YV[0x8d]B9q[0xea][0x96]R[0x1c][0xf0][0xf1]5[0xa6]E[0xa9]l[0xfe][0xf8][0x1a]@Z[0x8b]c[0xef]Y[0xdd];[0xef][0x1d][0x1d][0xfa][0xa9]~[0xb4][0x6][0x9f]c[0xbe][0x1f]- ^[0xb2]H[0xec][0xd4]fO[0xa1][0xf3],8[0xa0]mk[0x84][0xab][0x97]Y[0xdc][0x2][0xe0]n[0xf6]1[0x90]:[0xa7]'[0xd7]M[0x86]3[0xed][0x12][0xd2][0xea],m[0x89]J[0x12][0xbd]g[0xe][0xea]r[0x90]>A[0x98])j[0x18][0xcd][0xe6][0xa3][0x95][0x5][0xa0][0xdd][0xc6]0[0x92][0xba][0x90]8[0xc1]*[0xb][0xdb] [0x96][0xc9][0xf7][0xa4]D[0x6][0xf9][0x9f][0x3][0xa9]-[0xb9][0xc0]x[0xd2][0xcb][0xa2]F[0xe5][0xb7]E[0x1e][0x85][0xc][0xf2]qp![0xa8][0xb]?[0x86][0x89][0xfb][0xaa]p[0x19]g[0x86]V"}l[0xf6]$[0x1d][0xab]k[0x92]~O[0xde][0xe3]a[0xb7][0x5]<F[0x9b][0x97]H[0x89],rI[0x9e]Gu[0xc5]!p[0x87]5bK[0xb][0xb]R[0xcd]\[0x1a][0xf2][0xc8][0x1d][0xa5][0x91][0x2][0xa9][0xb][0x97]~[0x1e])[0x89][0xdb]}[0xc7][0xcc]E[\r]}\[0xce][0x94][0x12][0x19][0xe5][0xda][0xed][0xf6][0xc4]^[0xdd]:[0xff]D[0xb8][0x96][0xcb][0x5]L8#[0xe5][0x12][0xd9][0xe4][0x3][\r]^[0xad]G[0xe9] [0xa9]55[0xd6]V[0x95]'![0x91]l}[0x14]G[0xea][0x9d]K[0xc9]3[0x9e][0xf6][0xbf]Y[0xab]D"Y[0xb]u[0xa7][0xa6]l[0x85]'[0x1d][0x89]WP[0xcd]|[0xb2][0x91]H[0xce][0xc9][0xa9][0x1b][0x17][0xf1][0xb2]M[0x89]c[0xd9][0xbc][0x1e][0xcd][0x84]E8%V[0x1b][0xf2][0xdd][0xf][0x9e][0xd8][0x9b][0xad][0xf0][0xad][0xcd][0xb8][0xc4] [0x97]|[0x1e][0xc4][0xa9]5[0x8b][0xe0][0xb1]5-FU3([0xa8][0x12][0xe2][0x9e]D}[0xa2][0xb0][0xc3][0xfd]([0x8b][0xa6]B+337[0x86]<r[0x1e][0xc5][0xf5][0xa7][0xaf]v7Q[0x8f]E[0xfd]7[0xea][0xff][0xfa][0xfa]+[0x0][0x0][0xff][0xff]8n[0xc9]gY[\n]"
+2020-01-22 22:09:43,958 DEBUG [main] wire:87 -  << "[0x0][0x0]"
+2020-01-22 22:09:43,958 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-01-22 22:09:47,208  INFO [main] EmployeesRestAPI:99 - ******************* Checking Content Encoding ******************
+2020-01-22 22:09:47,218  INFO [main] EmployeesRestAPI:102 - Content Encoding is ==> gzip
+2020-01-22 22:09:47,219  INFO [main] EmployeesRestAPI:110 - ******************* Checking Content Length ******************
+2020-01-22 22:09:47,219  INFO [main] EmployeesRestAPI:113 - Content Length is ==> 595
+2020-01-22 22:09:47,219  INFO [main] EmployeesRestAPI:77 - ******************* Checking Conten Type ******************
+2020-01-22 22:09:47,219  INFO [main] EmployeesRestAPI:80 - Content Type is ==> application/json;charset=utf-8
+2020-01-22 22:09:47,235  INFO [main] EmployeesRestAPI:124 - ******************* Checking Cookies ******************
+2020-01-22 22:09:47,235  INFO [main] EmployeesRestAPI:52 - ******************* Checking Response Time ******************
+2020-01-22 22:09:47,235  INFO [main] EmployeesRestAPI:55 - Response Time is ==> 1952
+2020-01-22 22:09:47,235  INFO [main] EmployeesRestAPI:30 - ******************* Checking Response Body ******************
+2020-01-22 22:09:47,266 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@18a3962d
+2020-01-22 22:09:47,266 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-01-22 22:09:47,266  INFO [main] EmployeesRestAPI:33 - Response Body==> {"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-01-22 22:09:47,282  INFO [main] EmployeesRestAPI:88 - ******************* Checking Server Type ******************
+2020-01-22 22:09:47,282  INFO [main] EmployeesRestAPI:91 - Server Type is ==> nginx/1.16.0
+2020-01-22 22:09:47,282  INFO [main] EmployeesRestAPI:41 - ******************* Checking Response Body ******************
+2020-01-22 22:09:47,282  INFO [main] EmployeesRestAPI:44 - Status code is ==> 200
+2020-01-22 22:09:47,297  INFO [main] EmployeesRestAPI:66 - ******************* Checking Status Line ******************
+2020-01-22 22:09:47,297  INFO [main] EmployeesRestAPI:69 - Status Line is ==> HTTP/1.1 200 OK
+2020-01-22 22:09:47,297  INFO [main] EmployeesRestAPI:133 - ******************* Finished TC001_Get_All_Employees ******************
+2020-01-22 22:14:13,600  INFO [main] TC001_Get_All_Employees:22 - ******************* Shree Ganesh ******************
+2020-01-22 22:14:13,610  INFO [main] TC001_Get_All_Employees:23 - ******************* Started TC001_Get_All_Employees ******************
+2020-01-22 22:14:13,610  INFO [main] EmployeesRestAPI:24 - ******************* Started TC001_Get_All_Employees******************
+2020-01-22 22:14:16,034 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2020-01-22 22:14:16,102 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2020-01-22 22:14:16,227 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-01-22 22:14:16,227 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-01-22 22:14:16,227 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-01-22 22:14:16,227 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-01-22 22:14:16,243 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-01-22 22:14:16,243 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/employees HTTP/1.1
+2020-01-22 22:14:16,243 DEBUG [main] wire:73 -  >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+2020-01-22 22:14:16,243 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-01-22 22:14:16,243 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2020-01-22 22:14:16,243 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-01-22 22:14:16,243 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+2020-01-22 22:14:16,243 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-01-22 22:14:16,243 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-01-22 22:14:16,243 DEBUG [main] headers:278 - >> GET /api/v1/employees HTTP/1.1
+2020-01-22 22:14:16,243 DEBUG [main] headers:281 - >> Accept: */*
+2020-01-22 22:14:16,243 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2020-01-22 22:14:16,243 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-01-22 22:14:16,243 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+2020-01-22 22:14:16,243 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-01-22 22:14:16,696 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-01-22 22:14:16,696 DEBUG [main] wire:73 -  << "Accept-Ranges: bytes[\r][\n]"
+2020-01-22 22:14:16,696 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-01-22 22:14:16,696 DEBUG [main] wire:73 -  << "Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Age: 0[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Date: Thu, 23 Jan 2020 03:14:15 GMT[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Pragma: no-cache[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Set-Cookie: PHPSESSID=2aea6f1792cd306b33d855110e0fb46f; path=/[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 03:44:15 UTC[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:14:15 UTC[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Set-Cookie: ezoab_133674=mod59; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:14:15 UTC[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Set-Cookie: active_template::133674=pub_site.1579749255; Path=/; Domain=restapiexample.com; Expires=Sat, 25 Jan 2020 03:14:15 UTC[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,User-Agent,X-APP-JSON[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "X-Shard: 100224170[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "X-Varnish: 273615013[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "X-Vcache: Miss[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "Content-Length: 595[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-01-22 22:14:16,711 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-01-22 22:14:16,727 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Accept-Ranges: bytes
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Age: 0
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Cache-Control: no-store, no-cache, must-revalidate
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Content-Type: application/json;charset=utf-8
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Date: Thu, 23 Jan 2020 03:14:15 GMT
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Pragma: no-cache
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Referrer-Policy: 
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Response: 200
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Set-Cookie: PHPSESSID=2aea6f1792cd306b33d855110e0fb46f; path=/
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 03:44:15 UTC
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:14:15 UTC
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Set-Cookie: ezoab_133674=mod59; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:14:15 UTC
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Set-Cookie: active_template::133674=pub_site.1579749255; Path=/; Domain=restapiexample.com; Expires=Sat, 25 Jan 2020 03:14:15 UTC
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Vary: Accept-Encoding,User-Agent,X-APP-JSON
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Via: 1.1 varnish (Varnish/6.0)
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << X-Shard: 100224170
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << X-Sol: pub_site
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << X-Varnish: 273615013
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << X-Vcache: Miss
+2020-01-22 22:14:16,727 DEBUG [main] headers:265 - << Content-Length: 595
+2020-01-22 22:14:16,743 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-01-22 22:14:16,774 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=utf-8
+2020-01-22 22:14:16,774 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c][0x95][0xcd]n[0xdb]:[0x14][0x84]_[0x85][0xe0]:[0xb][0x89][0xd4][0x8f][0xed][0xdd][0xb5][0x83]8[0xb8]i[0x8a]6[0x9][0x1a][0x14]E[0x11][0x1c]X[0xa7]1Q[0x9a]4[0x8e][0xa8]4j[0x90]w/[0x8c]v[0x91][0xc5][0x88]B[0xbb][0xb5]`}[0x18]r[0xe6][0xd3][0x8b][0xee][0x13][0xa5][0xa1][0xd7]+[0xdd][0xf][0xbb][0x1d][0xf7][0xbd]>[0xd3][0x1d]%[0xd2][0xab]//[0xda]uz[0xa5]K}[0xa6][0xf9]p[0xf4]qd~[0x8]t`[0xbd][0xd2]w[0xee][0x91]E[0xbd]w[0xcf]1[0xbc]}[0xda][0x93]'[0x19][0xf5]J[S,[0x8a][0xe2][0xed]#z<[0xfd][0xaf]9[0xbd][0xec]([0xf1][0x9b][0xf3][0xfc][0xe0][0xe][0xbf][0xd4][0xaf]gP[0x6][0xa0][0xb6]$[0xc2])[0xa9]{[0x17][0x12]K[0xf]qe[[0xb4]5[0xc2][0xd9],[0xce][0x2][0xdc][0xfd]>[0xc5][0xa0]6[0xf1][0x19][0x92][0x16]M[0x1]s5YP[0x5]@[0x1b][0xee][0xc4][0xed][0xd4][0x15]{?BTem[0xd1][0x0][0x96]1YV[0x8d]B9q[0xea][0x96]R[0x1c][0xf0][0xf1]5[0xa6]E[0xa9]l[0xfe][0xf8][0x1a]@Z[0x8b]c[0xef]Y[0xdd];[0xef][0x1d][0x1d][0xfa][0xa9]~[0xb4][0x6][0x9f]c[0xbe][0x1f]- ^[0xb2]H[0xec][0xd4]fO[0xa1][0xf3],8[0xa0]mk[0x84][0xab][0x97]Y[0xdc][0x2][0xe0]n[0xf6]1[0x90]:[0xa7]'[0xd7]M[0x86]3[0xed][0x12][0xd2][0xea],m[0x89]J[0x12][0xbd]g[0xe][0xea]r[0x90]>A[0x98])j[0x18][0xcd][0xe6][0xa3][0x95][0x5][0xa0][0xdd][0xc6]0[0x92][0xba][0x90]8[0xc1]*[0xb][0xdb] [0x96][0xc9][0xf7][0xa4]D[0x6][0xf9][0x9f][0x3][0xa9]-[0xb9][0xc0]x[0xd2][0xcb][0xa2]F[0xe5][0xb7]E[0x1e][0x85][0xc][0xf2]qp![0xa8][0xb]?[0x86][0x89][0xfb][0xaa]p[0x19]g[0x86]V"}l[0xf6]$[0x1d][0xab]k[0x92]~O[0xde][0xe3]a[0xb7][0x5]<F[0x9b][0x97]H[0x89],rI[0x9e]Gu[0xc5]!p[0x87]5bK[0xb][0xb]R[0xcd]\[0x1a][0xf2][0xc8][0x1d][0xa5][0x91][0x2][0xa9][0xb][0x97]~[0x1e])[0x89][0xdb]}[0xc7][0xcc]E[\r]}\[0xce][0x94][0x12][0x19][0xe5][0xda][0xed][0xf6][0xc4]^[0xdd]:[0xff]D[0xb8][0x96][0xcb][0x5]L8#[0xe5][0x12][0xd9][0xe4][0x3][\r]^[0xad]G[0xe9] [0xa9]55[0xd6]V[0x95]'![0x91]l}[0x14]G[0xea][0x9d]K[0xc9]3[0x9e][0xf6][0xbf]Y[0xab]D"Y[0xb]u[0xa7][0xa6]l[0x85]'[0x1d][0x89]WP[0xcd]|[0xb2][0x91]H[0xce][0xc9][0xa9][0x1b][0x17][0xf1][0xb2]M[0x89]c[0xd9][0xbc][0x1e][0xcd][0x84]E8%V[0x1b][0xf2][0xdd][0xf][0x9e][0xd8][0x9b][0xad][0xf0][0xad][0xcd][0xb8][0xc4] [0x97]|[0x1e][0xc4][0xa9]5[0x8b][0xe0][0xb1]5-FU3([0xa8][0x12][0xe2][0x9e]D}[0xa2][0xb0][0xc3][0xfd]([0x8b][0xa6]B+337[0x86]<r[0x1e][0xc5][0xf5][0xa7][0xaf]v7Q[0x8f]E[0xfd]7[0xea][0xff][0xfa][0xfa]+[0x0][0x0][0xff][0xff]8n[0xc9]gY[\n]"
+2020-01-22 22:14:16,774 DEBUG [main] wire:87 -  << "[0x0][0x0]"
+2020-01-22 22:14:16,774 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-01-22 22:14:20,024  INFO [main] EmployeesRestAPI:105 - ******************* Checking Content Encoding ******************
+2020-01-22 22:14:20,034  INFO [main] EmployeesRestAPI:108 - Content Encoding is ==> gzip
+2020-01-22 22:14:20,035  INFO [main] EmployeesRestAPI:116 - ******************* Checking Content Length ******************
+2020-01-22 22:14:20,035  INFO [main] EmployeesRestAPI:119 - Content Length is ==> 595
+2020-01-22 22:14:20,035  INFO [main] EmployeesRestAPI:83 - ******************* Checking Conten Type ******************
+2020-01-22 22:14:20,035  INFO [main] EmployeesRestAPI:86 - Content Type is ==> application/json;charset=utf-8
+2020-01-22 22:14:20,051  INFO [main] EmployeesRestAPI:130 - ******************* Checking Cookies ******************
+2020-01-22 22:14:20,051  INFO [main] EmployeesRestAPI:58 - ******************* Checking Response Time ******************
+2020-01-22 22:14:20,051  INFO [main] EmployeesRestAPI:61 - Response Time is ==> 2084
+2020-01-22 22:14:20,051  WARN [main] EmployeesRestAPI:64 - Response Time is greater than 2000
+2020-01-22 22:14:20,051  INFO [main] EmployeesRestAPI:36 - ******************* Checking Response Body ******************
+2020-01-22 22:14:20,082 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@117e0fe5
+2020-01-22 22:14:20,098 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-01-22 22:14:20,098  INFO [main] EmployeesRestAPI:39 - Response Body==> {"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-01-22 22:14:20,098  INFO [main] EmployeesRestAPI:94 - ******************* Checking Server Type ******************
+2020-01-22 22:14:20,098  INFO [main] EmployeesRestAPI:97 - Server Type is ==> nginx/1.16.0
+2020-01-22 22:14:20,098  INFO [main] EmployeesRestAPI:47 - ******************* Checking Response Body ******************
+2020-01-22 22:14:20,098  INFO [main] EmployeesRestAPI:50 - Status code is ==> 200
+2020-01-22 22:14:20,098  INFO [main] EmployeesRestAPI:72 - ******************* Checking Status Line ******************
+2020-01-22 22:14:20,113  INFO [main] EmployeesRestAPI:75 - Status Line is ==> HTTP/1.1 200 OK
+2020-01-22 22:14:20,113  INFO [main] EmployeesRestAPI:139 - ******************* Finished TC001_Get_All_Employees ******************
+2020-01-22 22:29:08,751  INFO [main] EmployeesRestAPI:22 - ******************* Started TC001_Get_All_Employees******************
+2020-01-22 22:29:11,210 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2020-01-22 22:29:11,307 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2020-01-22 22:29:11,948 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-01-22 22:29:11,948 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-01-22 22:29:11,948 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-01-22 22:29:11,948 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-01-22 22:29:11,948 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2020-01-22 22:29:11,948 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/employees HTTP/1.1
+2020-01-22 22:29:11,948 DEBUG [main] wire:73 -  >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+2020-01-22 22:29:11,964 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2020-01-22 22:29:11,964 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2020-01-22 22:29:11,964 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-01-22 22:29:11,964 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)[\r][\n]"
+2020-01-22 22:29:11,964 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-01-22 22:29:11,964 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2020-01-22 22:29:11,964 DEBUG [main] headers:278 - >> GET /api/v1/employees HTTP/1.1
+2020-01-22 22:29:11,964 DEBUG [main] headers:281 - >> Accept: */*
+2020-01-22 22:29:11,964 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2020-01-22 22:29:11,964 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2020-01-22 22:29:11,964 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_171)
+2020-01-22 22:29:11,964 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2020-01-22 22:29:12,370 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-01-22 22:29:12,378 DEBUG [main] wire:73 -  << "Accept-Ranges: bytes[\r][\n]"
+2020-01-22 22:29:12,378 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-01-22 22:29:12,378 DEBUG [main] wire:73 -  << "Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client[\r][\n]"
+2020-01-22 22:29:12,378 DEBUG [main] wire:73 -  << "Age: 0[\r][\n]"
+2020-01-22 22:29:12,378 DEBUG [main] wire:73 -  << "Cache-Control: no-store, no-cache, must-revalidate[\r][\n]"
+2020-01-22 22:29:12,378 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-01-22 22:29:12,378 DEBUG [main] wire:73 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-22 22:29:12,378 DEBUG [main] wire:73 -  << "Date: Thu, 23 Jan 2020 03:29:11 GMT[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Pragma: no-cache[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Set-Cookie: PHPSESSID=3da0563e1402164bb7439b5128971293; path=/[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 03:59:10 UTC[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:29:10 UTC[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Set-Cookie: ezoab_133674=mod88-c; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:29:10 UTC[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Set-Cookie: active_template::133674=pub_site.1579750150; Path=/; Domain=restapiexample.com; Expires=Sat, 25 Jan 2020 03:29:10 UTC[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,User-Agent,X-APP-JSON[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "X-Shard: 100224170[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "X-Varnish: 275218857[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "X-Vcache: Miss[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "Content-Length: 595[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] wire:73 -  << "[\r][\n]"
+2020-01-22 22:29:12,394 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-01-22 22:29:12,394 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2020-01-22 22:29:12,394 DEBUG [main] headers:265 - << Accept-Ranges: bytes
+2020-01-22 22:29:12,394 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2020-01-22 22:29:12,394 DEBUG [main] headers:265 - << Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+2020-01-22 22:29:12,394 DEBUG [main] headers:265 - << Age: 0
+2020-01-22 22:29:12,394 DEBUG [main] headers:265 - << Cache-Control: no-store, no-cache, must-revalidate
+2020-01-22 22:29:12,394 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2020-01-22 22:29:12,394 DEBUG [main] headers:265 - << Content-Type: application/json;charset=utf-8
+2020-01-22 22:29:12,394 DEBUG [main] headers:265 - << Date: Thu, 23 Jan 2020 03:29:11 GMT
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Pragma: no-cache
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Referrer-Policy: 
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Response: 200
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Set-Cookie: PHPSESSID=3da0563e1402164bb7439b5128971293; path=/
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Set-Cookie: ezoadgid_133674=-1; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 03:59:10 UTC
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Set-Cookie: ezoref_133674=; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:29:10 UTC
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Set-Cookie: ezoab_133674=mod88-c; Path=/; Domain=restapiexample.com; Expires=Thu, 23 Jan 2020 05:29:10 UTC
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Set-Cookie: active_template::133674=pub_site.1579750150; Path=/; Domain=restapiexample.com; Expires=Sat, 25 Jan 2020 03:29:10 UTC
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Vary: Accept-Encoding,User-Agent,X-APP-JSON
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Via: 1.1 varnish (Varnish/6.0)
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << X-Shard: 100224170
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << X-Sol: pub_site
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << X-Varnish: 275218857
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << X-Vcache: Miss
+2020-01-22 22:29:12,409 DEBUG [main] headers:265 - << Content-Length: 595
+2020-01-22 22:29:12,425 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-01-22 22:29:12,441 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=utf-8
+2020-01-22 22:29:12,456 DEBUG [main] wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x9c][0x95][0xcd]n[0xdb]:[0x14][0x84]_[0x85][0xe0]:[0xb][0x89][0xd4][0x8f][0xed][0xdd][0xb5][0x83]8[0xb8]i[0x8a]6[0x9][0x1a][0x14]E[0x11][0x1c]X[0xa7]1Q[0x9a]4[0x8e][0xa8]4j[0x90]w/[0x8c]v[0x91][0xc5][0x88]B[0xbb][0xb5]`}[0x18]r[0xe6][0xd3][0x8b][0xee][0x13][0xa5][0xa1][0xd7]+[0xdd][0xf][0xbb][0x1d][0xf7][0xbd]>[0xd3][0x1d]%[0xd2][0xab]//[0xda]uz[0xa5]K}[0xa6][0xf9]p[0xf4]qd~[0x8]t`[0xbd][0xd2]w[0xee][0x91]E[0xbd]w[0xcf]1[0xbc]}[0xda][0x93]'[0x19][0xf5]J[S,[0x8a][0xe2][0xed]#z<[0xfd][0xaf]9[0xbd][0xec]([0xf1][0x9b][0xf3][0xfc][0xe0][0xe][0xbf][0xd4][0xaf]gP[0x6][0xa0][0xb6]$[0xc2])[0xa9]{[0x17][0x12]K[0xf]qe[[0xb4]5[0xc2][0xd9],[0xce][0x2][0xdc][0xfd]>[0xc5][0xa0]6[0xf1][0x19][0x92][0x16]M[0x1]s5YP[0x5]@[0x1b][0xee][0xc4][0xed][0xd4][0x15]{?BTem[0xd1][0x0][0x96]1YV[0x8d]B9q[0xea][0x96]R[0x1c][0xf0][0xf1]5[0xa6]E[0xa9]l[0xfe][0xf8][0x1a]@Z[0x8b]c[0xef]Y[0xdd];[0xef][0x1d][0x1d][0xfa][0xa9]~[0xb4][0x6][0x9f]c[0xbe][0x1f]- ^[0xb2]H[0xec][0xd4]fO[0xa1][0xf3],8[0xa0]mk[0x84][0xab][0x97]Y[0xdc][0x2][0xe0]n[0xf6]1[0x90]:[0xa7]'[0xd7]M[0x86]3[0xed][0x12][0xd2][0xea],m[0x89]J[0x12][0xbd]g[0xe][0xea]r[0x90]>A[0x98])j[0x18][0xcd][0xe6][0xa3][0x95][0x5][0xa0][0xdd][0xc6]0[0x92][0xba][0x90]8[0xc1]*[0xb][0xdb] [0x96][0xc9][0xf7][0xa4]D[0x6][0xf9][0x9f][0x3][0xa9]-[0xb9][0xc0]x[0xd2][0xcb][0xa2]F[0xe5][0xb7]E[0x1e][0x85][0xc][0xf2]qp![0xa8][0xb]?[0x86][0x89][0xfb][0xaa]p[0x19]g[0x86]V"}l[0xf6]$[0x1d][0xab]k[0x92]~O[0xde][0xe3]a[0xb7][0x5]<F[0x9b][0x97]H[0x89],rI[0x9e]Gu[0xc5]!p[0x87]5bK[0xb][0xb]R[0xcd]\[0x1a][0xf2][0xc8][0x1d][0xa5][0x91][0x2][0xa9][0xb][0x97]~[0x1e])[0x89][0xdb]}[0xc7][0xcc]E[\r]}\[0xce][0x94][0x12][0x19][0xe5][0xda][0xed][0xf6][0xc4]^[0xdd]:[0xff]D[0xb8][0x96][0xcb][0x5]L8#[0xe5][0x12][0xd9][0xe4][0x3][\r]^[0xad]G[0xe9] [0xa9]55[0xd6]V[0x95]'![0x91]l}[0x14]G[0xea][0x9d]K[0xc9]3[0x9e][0xf6][0xbf]Y[0xab]D"Y[0xb]u[0xa7][0xa6]l[0x85]'[0x1d][0x89]WP[0xcd]|[0xb2][0x91]H[0xce][0xc9][0xa9][0x1b][0x17][0xf1][0xb2]M[0x89]c[0xd9][0xbc][0x1e][0xcd][0x84]E8%V[0x1b][0xf2][0xdd][0xf][0x9e][0xd8][0x9b][0xad][0xf0][0xad][0xcd][0xb8][0xc4] [0x97]|[0x1e][0xc4][0xa9]5[0x8b][0xe0][0xb1]5-FU3([0xa8][0x12][0xe2][0x9e]D}[0xa2][0xb0][0xc3][0xfd]([0x8b][0xa6]B+337[0x86]<r[0x1e][0xc5][0xf5][0xa7][0xaf]v7Q[0x8f]E[0xfd]7[0xea][0xff][0xfa][0xfa]+[0x0][0x0][0xff][0xff]8n[0xc9]gY[\n]"
+2020-01-22 22:29:12,456 DEBUG [main] wire:87 -  << "[0x0][0x0]"
+2020-01-22 22:29:12,456 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-01-22 22:29:15,706  INFO [main] EmployeesRestAPI:103 - ******************* Checking Content Encoding ******************
+2020-01-22 22:29:15,717  INFO [main] EmployeesRestAPI:106 - Content Encoding is ==> gzip
+2020-01-22 22:29:15,718  INFO [main] EmployeesRestAPI:114 - ******************* Checking Content Length ******************
+2020-01-22 22:29:15,718  INFO [main] EmployeesRestAPI:117 - Content Length is ==> 595
+2020-01-22 22:29:15,718  INFO [main] EmployeesRestAPI:81 - ******************* Checking Conten Type ******************
+2020-01-22 22:29:15,718  INFO [main] EmployeesRestAPI:84 - Content Type is ==> application/json;charset=utf-8
+2020-01-22 22:29:15,718  INFO [main] EmployeesRestAPI:128 - ******************* Checking Cookies ******************
+2020-01-22 22:29:15,733  INFO [main] EmployeesRestAPI:56 - ******************* Checking Response Time ******************
+2020-01-22 22:29:15,733  INFO [main] EmployeesRestAPI:59 - Response Time is ==> 2653
+2020-01-22 22:29:15,733  WARN [main] EmployeesRestAPI:62 - Response Time is greater than 2000
+2020-01-22 22:29:15,749  INFO [main] EmployeesRestAPI:34 - ******************* Checking Response Body ******************
+2020-01-22 22:29:15,780 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@18a3962d
+2020-01-22 22:29:15,780 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-01-22 22:29:15,780  INFO [main] EmployeesRestAPI:37 - Response Body==> {"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-01-22 22:29:15,780  INFO [main] EmployeesRestAPI:92 - ******************* Checking Server Type ******************
+2020-01-22 22:29:15,780  INFO [main] EmployeesRestAPI:95 - Server Type is ==> nginx/1.16.0
+2020-01-22 22:29:15,780  INFO [main] EmployeesRestAPI:45 - ******************* Checking Response Body ******************
+2020-01-22 22:29:15,780  INFO [main] EmployeesRestAPI:48 - Status code is ==> 200
+2020-01-22 22:29:15,796  INFO [main] EmployeesRestAPI:70 - ******************* Checking Status Line ******************
+2020-01-22 22:29:15,796  INFO [main] EmployeesRestAPI:73 - Status Line is ==> HTTP/1.1 200 OK
+2020-01-22 22:29:15,796  INFO [main] EmployeesRestAPI:137 - ******************* Finished TC001_Get_All_Employees ******************

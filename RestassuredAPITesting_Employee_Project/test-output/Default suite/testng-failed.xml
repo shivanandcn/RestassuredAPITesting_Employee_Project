@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.employeeapi.testCases.TC001_Get_All_Employees">
+        <methods>
+          <include name="checkContentEncoding"/>
+          <include name="checkContentType"/>
+          <include name="checkServerType"/>
+          <include name="checkResposeBody"/>
+          <include name="checkContentLength"/>
+          <include name="tearDown"/>
+          <include name="checkStatusLine"/>
+          <include name="setup"/>
+          <include name="checkResponseTime"/>
+          <include name="getAllEmployees"/>
+          <include name="checkStatusCode"/>
+          <include name="checkCookies"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC001_Get_All_Employees -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
